@@ -1,5 +1,7 @@
 # The Bigger Blacker Box by a Lazy Data Scientist
 
+![Concept](http://url/to/img.png)
+
 While making predictive models we come across the same process everywhere. Clean data, encode categorical variables, impute missing values and finally choose an algorithm. But its not that simple, is it? Too many ways to - analyse and clean data, encode categorical features, impute values and on top of that so many algorithms with just as many parameters. How do you find the best solution?
 
 The data cleaning generally is domain oriented. Feature selection is majorly done by the algorithm – considering how far we have come with the algorithms. But if we can choose features automatically, can we not have a similar method to choose the encoders and the imputers? Just think about how many tests, p-values and bonferroni corrections we will we be skipping. Lately a lot of auto-ml tools have popped up which point to people wanting to make use of this black box more and more everyday.
@@ -19,9 +21,9 @@ I decided to do something similar. I programmed random selection for encoders, i
   - Imputer combination are used to impute the data
   - Data is sent to the modeller that selects the modelling algorithm, which randomly selects an algorithm and calculates validation error from a peice of data from train data we set aside right from the beginning
   - The results are cross validated with multiple validation data segments and summarised in a csv file
-  - 
+  
 ### Tech
-B3 uses a number of open source projects to work properly:
+B3 uses a number of open source projects:
 
 * [scikit-learn/scikit-learn] - https://github.com/scikit-learn/scikit-learn
 * [pandas-dev/pandas] - https://github.com/pandas-dev/pandas
