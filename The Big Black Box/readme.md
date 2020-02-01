@@ -1,6 +1,6 @@
 # The Bigger Blacker Box by a Lazy Data Scientist
 
-![Concept](http://url/to/img.png)
+![Concept](https://github.com/amittal-tcd/my_rep/blob/master/The%20Big%20Black%20Box/img.png)
 
 While making predictive models we come across the same process everywhere. Clean data, encode categorical variables, impute missing values and finally choose an algorithm. But its not that simple, is it? Too many ways to - analyse and clean data, encode categorical features, impute values and on top of that so many algorithms with just as many parameters. How do you find the best solution?
 
